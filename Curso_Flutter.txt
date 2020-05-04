@@ -1,0 +1,29 @@
+FLUTTER 
+
+Atalhos:
+
+	
+	shift + alt + f -> identar código
+	ctrl + . -> aciona o suporte, mostrando o " add padding , wrap ..." 
+
+
+Primeiro exercicio:
+
+void main() => runApp(Text('Hello World!',textDirection: TextDirection.ltr));
+
+Widgets: representa cada elemento visual na tela
+	 árvore de widgets 
+
+Acrescentando um novo Widgets ->
+
+void main() => runApp(Text('Hello World!',textDirection: TextDirection.ltr), Text('Segundo widgets');
+
+-> Módulo 2: Implementando layout com Widgets
+	
+	MaterialApp() ---> base para criação dos widgets, tem q instaciar um Home: ... 
+	Scaffold      ---> permite implementar todos as estruturas básicas do design.
+			
+			void main() => runApp(MaterialApp(
+      				home: Scaffold(),
+  				  ));
+   	

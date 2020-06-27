@@ -30,11 +30,10 @@ abstract class _LoginStore with Store {
   void togglePasswordVisible() => passwordVisible = !passwordVisible;
 
   @observable
-  bool loading = false;  
+  bool loading = false;
 
-  @observable 
+  @observable
   bool loggedIn = false;
-
 
   @computed
   bool get isEmailValid => RegExp(
@@ -42,10 +41,11 @@ abstract class _LoginStore with Store {
       .hasMatch(email);
 
   @computed
-  bool get isPasswordValid => password.length > 6;  
+  bool get isPasswordValid => password.length > 6;
 
-  @computed 
-  Function get loginPressed =>  (isEmailValid && isPasswordValid && !loading) ? login : true ;
+  @computed
+  Function get loginPressed =>
+      (isEmailValid && isPasswordValid && !loading) ? login : true;
 
   @action
   Future<void> login() async {
@@ -56,6 +56,14 @@ abstract class _LoginStore with Store {
     );
 
     loading = false;
-    loggedIn = true; 
+    loggedIn = true;
+
+    email = "";
+    password = "";
+  }
+
+  @action
+  void logout() {
+    loggedIn = false;
   }
 }

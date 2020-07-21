@@ -1,16 +1,29 @@
-# lista_tarefas
+# #App4 - Lista de tarefas
+Quarto aplicativo desenvolvido seguindo o curso [Criação de Apps Android e IOS com Flutter - Crie 16 Apps](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/learn/lecture/11060122#announcements).
 
-A new Flutter project.
+## Conceitos Aplicados
+  - Manipulação de arquivo
+  - SnackBar
+  - CheckboxListTile
+  - Dismissible
+  - RefreshIndicator
 
-## Getting Started
+## Features
+ Este aplicativo apresenta uma única tela exibindo a lista de tarefas, sendo possível adicionar novas tarefas, marca-las como concluídas, ordernar a lista para separar as atividades já concluídas das que ainda precisam ser finalizadas e o usuário também pode remover algumas tarefas, mas caso remova acidentalmente ele pode desfazer o comando. 
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+### Tela inicial com lista de tarefas
+![lista_1](https://user-images.githubusercontent.com/57146734/88118638-7498f100-cb94-11ea-8771-4b5c1e4401fe.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Lista de tarefas finalizadas e ordenadas
+![lista_2](https://user-images.githubusercontent.com/57146734/88118641-75ca1e00-cb94-11ea-95b2-b06c6082eb50.jpg)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### TExcluindo tarefa
+![lista_3](https://user-images.githubusercontent.com/57146734/88118643-7662b480-cb94-11ea-8cfd-b611961f0e04.jpg)
+
+
+
+
+
+

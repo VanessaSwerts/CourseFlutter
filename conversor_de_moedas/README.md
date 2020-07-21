@@ -1,16 +1,22 @@
-# conversor_de_moedas
+# #App3 - Conversor de moeda
+Terceiro aplicativo desenvolvido seguindo o curso [Criação de Apps Android e IOS com Flutter - Crie 16 Apps](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/learn/lecture/11058996#announcements).
 
-A new Flutter project.
+## Conceitos Aplicados
+  - Requisição em API;
+  - JSON;
+  - FutureBuilder;   
+  
+## Features
+Este aplicativo tem como finalidade mostrar automaticamente a conversão do valor inserido em uma moeda para os respectivos valores nas outras moedas, utilizando dados recentes.
 
-## Getting Started
+## Screenshots 
 
-This project is a starting point for a Flutter application.
+### Tela Inicial 
+![contador1](https://user-images.githubusercontent.com/57146734/88004899-69838980-cade-11ea-8ff6-e4c446763913.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+### Conversão
+![contador2](https://user-images.githubusercontent.com/57146734/88004902-6ab4b680-cade-11ea-9c7c-d84b0189db33.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+

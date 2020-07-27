@@ -1,16 +1,20 @@
-# animation
+# #App11 - Animation
+Aplicativo desenvolvido seguindo o curso [Criação de Apps Android e IOS com Flutter - Crie 16 Apps](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/learn/lecture/13835336#announcements).
 
-A new Flutter project.
+## Conceitos Aplicados
+  - Animações  
+  
+## Features
+Este aplicativo tem finalidade demonstrar alguns tipos de animações.
 
-## Getting Started
+## Screenshots 
 
-This project is a starting point for a Flutter application.
+### Login 
+![animation1](https://user-images.githubusercontent.com/57146734/88601091-3a24cd80-d046-11ea-87fa-67ba0e58d2af.jpeg)
 
-A few resources to get you started if this is your first Flutter project:
+### Home
+![animation2](https://user-images.githubusercontent.com/57146734/88601089-38f3a080-d046-11ea-8b43-99a939ea9acd.jpeg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
